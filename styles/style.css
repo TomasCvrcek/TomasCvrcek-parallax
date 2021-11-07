@@ -1,0 +1,184 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    color: white;
+  }
+
+h1, h2, h3, p, ol, ul{
+   padding: 20px;
+   margin: 0;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    padding-top: 30px;
+    text-decoration: bottom;
+}
+
+header{
+    text-align: center;
+}
+
+.parallax {
+    max-width: 100%; 
+    height: 85%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text, header{
+    /*text-align: center;*/
+    background-color: rgb(29, 31, 37);
+    min-height: 300px;
+}
+
+.textin{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1rem;
+}
+
+.textin > h2{
+    text-align: center;
+}
+
+.optional{
+    text-align: center;
+}
+
+
+.textin > ul, ol{
+    padding-left: 10%;
+}
+
+.nuke{
+    max-width: 100px;
+    transform: rotate(90deg);
+    top: 50px;
+    position: relative;
+}
+
+#beginning{
+    background-image: url("../images123/50_20.png");
+}
+
+
+#mouse_to_left{
+    height: 100%;
+    background-image: url("../images123/office.jpg");
+    width: 100%;
+    display: block;
+    position: relative;
+    background-attachment: fixed;
+    z-index: 1;
+}
+
+#mouse_to_left::after{
+    content: "";
+    background-image: url("../images123/Nightmarionne1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    background-attachment: fixed;
+    z-index: -1; 
+}
+
+
+
+#ductcams{
+    background-image: url("../images123/ductcams.jpg");
+}
+
+#ventimage{
+    background-image: url("../images123/snare.jpg");
+}
+
+#coins{
+    background-image: url("../images123/coins.jpg");
+}
+
+#mr_hugs{
+    background-image: url("../images123/mr_hugs.jpg");
+}
+
+#thirteen{
+    background-image: url("../images123/rockstarbonnie.jpg");
+}
+
+#and_stuff{
+    background-image: url("../images123/and_stuff.png");
+}
+
+#xor{
+    background-image: url("../images123/xor.jpg");
+}
+
+#deathcoinimage{
+    background-image: url("../images123/deathcoin.png");
+}
+
+#cam_stall_image{
+    background-image: url("../images123/cam_stall.png");
+}
+
+#unbeateble{
+    background-image: url("../images123/unbeateble.jpg");
+}
+
+#madness{
+    background-image: url("../images123/madness.jpg");
+}
+
+#nuke_venezuela{
+    height: 120%;
+    background-image: url("../images123/venezuela.jpg");
+    width: 100%;
+    display: block;
+    position: relative;
+    background-attachment: fixed;
+    z-index: 1;
+    cursor: none;
+    overflow: hidden;
+}
+
+
+#nuke_venezuela::after{
+    content: "";
+    background-image: url("../images123/nuked_venezuela.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    background-attachment: fixed;
+    z-index: -1; 
+}
+
+
+#myVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width:100%;
+    min-height: 100%;
+    opacity: 0;
+  }
+
+footer{
+    background-color: rgb(29, 31, 37);
+    text-align: center;
+    font-size: medium;
+}
+
